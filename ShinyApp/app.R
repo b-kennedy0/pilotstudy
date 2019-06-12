@@ -10,13 +10,12 @@ ui <- fluidPage(
 
     sidebarLayout(
         sidebarPanel(
-            selectInput('x', 'X', sort(unique(dataset$Job))),
-            selectInput('y', 'Y', sort(unique(dataset$Job)))
+            selectInput('x', 'Role 1', sort(unique(dataset$Job))),
+            selectInput('y', 'Role 2', sort(unique(dataset$Job)))
         ),
 
         mainPanel(
-           plotOutput("plot"),
-           tableOutput("jobcodes")
+           plotOutput("plot")
         )
     )
 )
@@ -28,14 +27,9 @@ server <- function(input, output) {
         
     dataset <- dataset %>% filter(Job == input$x | Job == input$y)
 
-    p <- ggplot(dataset, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=6) + labs(title=paste(input$x, "compared with", input$y, sep=" ")) + theme(axis.text = element_text(size = 12), axis.title=element_text(size=14,face="bold"), plot.title = element_text(size = 18, face = "bold"))
+    p <- ggplot(dataset, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=6) + labs(title=paste(input$x, "\n compared with \n", input$y, sep=" ")) + theme(axis.text = element_text(size = 12), axis.title=element_text(size=14,face="bold"), plot.title = element_text(size = 18, face = "bold"))
     
     print(p)
-    })
-    output$jobcodes <- renderTable({
-        tabledata <- read.csv("jobcodes.csv")
-        colnames(tabledata)[2] <- "Full Job Name"
-        tabledata[-c(3:4)]
     })
 }
 

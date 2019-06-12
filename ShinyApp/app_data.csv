@@ -1,568 +1,577 @@
-"","Gender","Sector","Job","Characteristic","Response"
-"1","f","bus","acc","Ambitious",4.03
-"2","f","bus","acc","Charitable",2.83
-"3","f","bus","acc","Family.Orientated",3.27
-"4","f","bus","acc","Honest",3.83
-"5","f","bus","acc","Intelligent",4.37
-"6","f","bus","acc","Powerful",3.63
-"7","f","bus","acc","Reliable",4.03
-"8","f","bus","acc","Skilful",4.2
-"9","f","bus","acc","Trustworthy",3.9
-"10","m","bus","acc","Ambitious",3.93
-"11","m","bus","acc","Charitable",2.7
-"12","m","bus","acc","Family.Orientated",3.1
-"13","m","bus","acc","Honest",3.57
-"14","m","bus","acc","Intelligent",4.33
-"15","m","bus","acc","Powerful",3.87
-"16","m","bus","acc","Reliable",3.8
-"17","m","bus","acc","Skilful",4.13
-"18","m","bus","acc","Trustworthy",3.7
-"19","f","bus","admin","Ambitious",3.21
-"20","f","bus","admin","Charitable",2.93
-"21","f","bus","admin","Family.Orientated",3.45
-"22","f","bus","admin","Honest",3.48
-"23","f","bus","admin","Intelligent",3.31
-"24","f","bus","admin","Powerful",2.55
-"25","f","bus","admin","Reliable",3.52
-"26","f","bus","admin","Skilful",3.41
-"27","f","bus","admin","Trustworthy",3.41
-"28","m","bus","admin","Ambitious",2.77
-"29","m","bus","admin","Charitable",2.73
-"30","m","bus","admin","Family.Orientated",3.17
-"31","m","bus","admin","Honest",3.4
-"32","m","bus","admin","Intelligent",3.23
-"33","m","bus","admin","Powerful",2.3
-"34","m","bus","admin","Reliable",3.53
-"35","m","bus","admin","Skilful",3.43
-"36","m","bus","admin","Trustworthy",3.6
-"37","f","bus","appelect","Ambitious",3.27
-"38","f","bus","appelect","Charitable",2.67
-"39","f","bus","appelect","Family.Orientated",3.1
-"40","f","bus","appelect","Honest",3.2
-"41","f","bus","appelect","Intelligent",3.07
-"42","f","bus","appelect","Powerful",2.03
-"43","f","bus","appelect","Reliable",3.13
-"44","f","bus","appelect","Skilful",3.37
-"45","f","bus","appelect","Trustworthy",3.13
-"46","m","bus","appelect","Ambitious",3.4
-"47","m","bus","appelect","Charitable",2.4
-"48","m","bus","appelect","Family.Orientated",3.07
-"49","m","bus","appelect","Honest",3.3
-"50","m","bus","appelect","Intelligent",3.2
-"51","m","bus","appelect","Powerful",2.1
-"52","m","bus","appelect","Reliable",2.97
-"53","m","bus","appelect","Skilful",3.53
-"54","m","bus","appelect","Trustworthy",3.17
-"55","f","bus","bar","Ambitious",2.53
-"56","f","bus","bar","Charitable",2.47
-"57","f","bus","bar","Family.Orientated",2.73
-"58","f","bus","bar","Honest",3.17
-"59","f","bus","bar","Intelligent",2.7
-"60","f","bus","bar","Powerful",2.03
-"61","f","bus","bar","Reliable",3.23
-"62","f","bus","bar","Skilful",3.23
-"63","f","bus","bar","Trustworthy",3.03
-"64","m","bus","bar","Ambitious",2.73
-"65","m","bus","bar","Charitable",2.53
-"66","m","bus","bar","Family.Orientated",2.7
-"67","m","bus","bar","Honest",2.93
-"68","m","bus","bar","Intelligent",2.93
-"69","m","bus","bar","Powerful",2.33
-"70","m","bus","bar","Reliable",3
-"71","m","bus","bar","Skilful",3.2
-"72","m","bus","bar","Trustworthy",2.87
-"73","f","bus","barist","Ambitious",2.6
-"74","f","bus","barist","Charitable",2.6
-"75","f","bus","barist","Family.Orientated",2.83
-"76","f","bus","barist","Honest",3.07
-"77","f","bus","barist","Intelligent",2.53
-"78","f","bus","barist","Powerful",2
-"79","f","bus","barist","Reliable",3.2
-"80","f","bus","barist","Skilful",3.03
-"81","f","bus","barist","Trustworthy",3.03
-"82","m","bus","barist","Ambitious",2.77
-"83","m","bus","barist","Charitable",2.63
-"84","m","bus","barist","Family.Orientated",3.07
-"85","m","bus","barist","Honest",3.37
-"86","m","bus","barist","Intelligent",2.93
-"87","m","bus","barist","Powerful",1.9
-"88","m","bus","barist","Reliable",3.33
-"89","m","bus","barist","Skilful",3.57
-"90","m","bus","barist","Trustworthy",3.27
-"91","f","gov","barr","Ambitious",4.53
-"92","f","gov","barr","Charitable",3.27
-"93","f","gov","barr","Family.Orientated",3.43
-"94","f","gov","barr","Honest",4.13
-"95","f","gov","barr","Intelligent",4.63
-"96","f","gov","barr","Powerful",4.6
-"97","f","gov","barr","Reliable",4.13
-"98","f","gov","barr","Skilful",4.3
-"99","f","gov","barr","Trustworthy",4.13
-"100","m","gov","barr","Ambitious",4.23
-"101","m","gov","barr","Charitable",4
-"102","m","gov","barr","Family.Orientated",2.8
-"103","m","gov","barr","Honest",4.3
-"104","m","gov","barr","Intelligent",4.53
-"105","m","gov","barr","Powerful",4.6
-"106","m","gov","barr","Reliable",4.23
-"107","m","gov","barr","Skilful",4.37
-"108","m","gov","barr","Trustworthy",4
-"109","f","gov","bin","Ambitious",2.2
-"110","f","gov","bin","Charitable",2.47
-"111","f","gov","bin","Family.Orientated",2.97
-"112","f","gov","bin","Honest",2.93
-"113","f","gov","bin","Intelligent",2.23
-"114","f","gov","bin","Powerful",1.8
-"115","f","gov","bin","Reliable",3.1
-"116","f","gov","bin","Skilful",2.37
-"117","f","gov","bin","Trustworthy",2.97
-"118","m","gov","bin","Ambitious",2.2
-"119","m","gov","bin","Charitable",2.5
-"120","m","gov","bin","Family.Orientated",2.9
-"121","m","gov","bin","Honest",2.87
-"122","m","gov","bin","Intelligent",2.33
-"123","m","gov","bin","Powerful",1.77
-"124","m","gov","bin","Reliable",3.1
-"125","m","gov","bin","Skilful",2.47
-"126","m","gov","bin","Trustworthy",2.93
-"127","f","bus","ceo","Ambitious",4.57
-"128","f","bus","ceo","Charitable",2.87
-"129","f","bus","ceo","Family.Orientated",3.07
-"130","f","bus","ceo","Honest",3.27
-"131","f","bus","ceo","Intelligent",4.4
-"132","f","bus","ceo","Powerful",4.63
-"133","f","bus","ceo","Reliable",3.77
-"134","f","bus","ceo","Skilful",4.43
-"135","f","bus","ceo","Trustworthy",3.37
-"136","m","bus","ceo","Ambitious",4.4
-"137","m","bus","ceo","Charitable",2.7
-"138","m","bus","ceo","Family.Orientated",2.8
-"139","m","bus","ceo","Honest",2.83
-"140","m","bus","ceo","Intelligent",4.3
-"141","m","bus","ceo","Powerful",4.4
-"142","m","bus","ceo","Reliable",3.57
-"143","m","bus","ceo","Skilful",4.3
-"144","m","bus","ceo","Trustworthy",3
-"145","f","gov","civil","Ambitious",3.4
-"146","f","gov","civil","Charitable",3.27
-"147","f","gov","civil","Family.Orientated",3.37
-"148","f","gov","civil","Honest",3.5
-"149","f","gov","civil","Intelligent",3.63
-"150","f","gov","civil","Powerful",3.27
-"151","f","gov","civil","Reliable",3.6
-"152","f","gov","civil","Skilful",3.6
-"153","f","gov","civil","Trustworthy",3.53
-"154","m","gov","civil","Ambitious",3.4
-"155","m","gov","civil","Charitable",3.07
-"156","m","gov","civil","Family.Orientated",3.2
-"157","m","gov","civil","Honest",3.4
-"158","m","gov","civil","Intelligent",3.57
-"159","m","gov","civil","Powerful",3.33
-"160","m","gov","civil","Reliable",3.57
-"161","m","gov","civil","Skilful",3.53
-"162","m","gov","civil","Trustworthy",3.57
-"163","f","heal","clean","Ambitious",2.3
-"164","f","heal","clean","Charitable",2.87
-"165","f","heal","clean","Family.Orientated",3.53
-"166","f","heal","clean","Honest",3.4
-"167","f","heal","clean","Intelligent",2.27
-"168","f","heal","clean","Powerful",1.87
-"169","f","heal","clean","Reliable",3.43
-"170","f","heal","clean","Skilful",2.63
-"171","f","heal","clean","Trustworthy",3.23
-"172","m","heal","clean","Ambitious",2.1
-"173","m","heal","clean","Charitable",2.27
-"174","m","heal","clean","Family.Orientated",2.87
-"175","m","heal","clean","Honest",2.73
-"176","m","heal","clean","Intelligent",2.17
-"177","m","heal","clean","Powerful",1.8
-"178","m","heal","clean","Reliable",2.87
-"179","m","heal","clean","Skilful",2.43
-"180","m","heal","clean","Trustworthy",2.8
-"181","f","heal","doc","Ambitious",4.53
-"182","f","heal","doc","Charitable",3.83
-"183","f","heal","doc","Family.Orientated",3.53
-"184","f","heal","doc","Honest",4.5
-"185","f","heal","doc","Intelligent",4.87
-"186","f","heal","doc","Powerful",4.57
-"187","f","heal","doc","Reliable",4.5
-"188","f","heal","doc","Skilful",4.73
-"189","f","heal","doc","Trustworthy",4.5
-"190","m","heal","doc","Ambitious",4.43
-"191","m","heal","doc","Charitable",3.8
-"192","m","heal","doc","Family.Orientated",3.7
-"193","m","heal","doc","Honest",4.3
-"194","m","heal","doc","Intelligent",4.8
-"195","m","heal","doc","Powerful",4.33
-"196","m","heal","doc","Reliable",4.43
-"197","m","heal","doc","Skilful",4.7
-"198","m","heal","doc","Trustworthy",4.4
-"199","f","pubt","driver","Ambitious",2.27
-"200","f","pubt","driver","Charitable",2.47
-"201","f","pubt","driver","Family.Orientated",3.03
-"202","f","pubt","driver","Honest",3.17
-"203","f","pubt","driver","Intelligent",2.43
-"204","f","pubt","driver","Powerful",2.03
-"205","f","pubt","driver","Reliable",3.13
-"206","f","pubt","driver","Skilful",3
-"207","f","pubt","driver","Trustworthy",3.13
-"208","m","pubt","driver","Ambitious",2.47
-"209","m","pubt","driver","Charitable",2.7
-"210","m","pubt","driver","Family.Orientated",3.07
-"211","m","pubt","driver","Honest",3.2
-"212","m","pubt","driver","Intelligent",2.67
-"213","m","pubt","driver","Powerful",2.2
-"214","m","pubt","driver","Reliable",3.07
-"215","m","pubt","driver","Skilful",3.13
-"216","m","pubt","driver","Trustworthy",3.13
-"217","f","med","ed","Ambitious",3.8
-"218","f","med","ed","Charitable",2.8
-"219","f","med","ed","Family.Orientated",3.03
-"220","f","med","ed","Honest",2.7
-"221","f","med","ed","Intelligent",4
-"222","f","med","ed","Powerful",3.7
-"223","f","med","ed","Reliable",3.23
-"224","f","med","ed","Skilful",3.7
-"225","f","med","ed","Trustworthy",2.73
-"226","m","med","ed","Ambitious",3.87
-"227","m","med","ed","Charitable",3.4
-"228","m","med","ed","Family.Orientated",2.87
-"229","m","med","ed","Honest",2.93
-"230","m","med","ed","Intelligent",4.03
-"231","m","med","ed","Powerful",3.33
-"232","m","med","ed","Reliable",2.87
-"233","m","med","ed","Skilful",3.9
-"234","m","med","ed","Trustworthy",2.53
-"235","f","bus","elect","Ambitious",4.03
-"236","f","bus","elect","Charitable",2.97
-"237","f","bus","elect","Family.Orientated",3.17
-"238","f","bus","elect","Honest",3.77
-"239","f","bus","elect","Intelligent",4.27
-"240","f","bus","elect","Powerful",3.4
-"241","f","bus","elect","Reliable",4.1
-"242","f","bus","elect","Skilful",4.27
-"243","f","bus","elect","Trustworthy",3.83
-"244","m","bus","elect","Ambitious",3.83
-"245","m","bus","elect","Charitable",3.03
-"246","m","bus","elect","Family.Orientated",3.17
-"247","m","bus","elect","Honest",3.77
-"248","m","bus","elect","Intelligent",4.3
-"249","m","bus","elect","Powerful",3.2
-"250","m","bus","elect","Reliable",4.07
-"251","m","bus","elect","Skilful",4.5
-"252","m","bus","elect","Trustworthy",3.87
-"253","m","mil","entr","Ambitious",3.88
-"254","m","mil","entr","Charitable",3.4
-"255","m","mil","entr","Family.Orientated",3.03
-"256","m","mil","entr","Honest",3.65
-"257","m","mil","entr","Intelligent",3.45
-"258","m","mil","entr","Powerful",2.85
-"259","m","mil","entr","Reliable",3.68
-"260","m","mil","entr","Skilful",3.85
-"261","m","mil","entr","Trustworthy",3.6
-"262","f","mil","gen","Ambitious",3.97
-"263","f","mil","gen","Charitable",3.77
-"264","f","mil","gen","Family.Orientated",2.9
-"265","f","mil","gen","Honest",4.37
-"266","f","mil","gen","Intelligent",3.93
-"267","f","mil","gen","Powerful",4.13
-"268","f","mil","gen","Reliable",4.17
-"269","f","mil","gen","Skilful",4.07
-"270","f","mil","gen","Trustworthy",4.1
-"271","m","mil","gen","Ambitious",4.07
-"272","m","mil","gen","Charitable",3.13
-"273","m","mil","gen","Family.Orientated",3.23
-"274","m","mil","gen","Honest",3.9
-"275","m","mil","gen","Intelligent",3.83
-"276","m","mil","gen","Powerful",3.97
-"277","m","mil","gen","Reliable",4.03
-"278","m","mil","gen","Skilful",4.2
-"279","m","mil","gen","Trustworthy",3.87
-"280","f","edu","head","Ambitious",4.2
-"281","f","edu","head","Charitable",3.53
-"282","f","edu","head","Family.Orientated",3.63
-"283","f","edu","head","Honest",4
-"284","f","edu","head","Intelligent",4.27
-"285","f","edu","head","Powerful",4.2
-"286","f","edu","head","Reliable",4.03
-"287","f","edu","head","Skilful",4.03
-"288","f","edu","head","Trustworthy",4.1
-"289","m","edu","head","Ambitious",3.87
-"290","m","edu","head","Charitable",3.7
-"291","m","edu","head","Family.Orientated",3.4
-"292","m","edu","head","Honest",3.97
-"293","m","edu","head","Intelligent",4.07
-"294","m","edu","head","Powerful",4.27
-"295","m","edu","head","Reliable",3.67
-"296","m","edu","head","Skilful",3.83
-"297","m","edu","head","Trustworthy",3.97
-"298","f","gov","mp","Ambitious",4.57
-"299","f","gov","mp","Charitable",2.8
-"300","f","gov","mp","Family.Orientated",2.77
-"301","f","gov","mp","Honest",2.9
-"302","f","gov","mp","Intelligent",4.23
-"303","f","gov","mp","Powerful",4.83
-"304","f","gov","mp","Reliable",2.8
-"305","f","gov","mp","Skilful",3.87
-"306","f","gov","mp","Trustworthy",2.83
-"307","m","gov","mp","Ambitious",4.5
-"308","m","gov","mp","Charitable",2.73
-"309","m","gov","mp","Family.Orientated",2.83
-"310","m","gov","mp","Honest",2.67
-"311","m","gov","mp","Intelligent",4.1
-"312","m","gov","mp","Powerful",4.7
-"313","m","gov","mp","Reliable",2.97
-"314","m","gov","mp","Skilful",3.9
-"315","m","gov","mp","Trustworthy",2.67
-"316","f","bus","olymp","Ambitious",4.6
-"317","f","bus","olymp","Charitable",3.57
-"318","f","bus","olymp","Family.Orientated",3.17
-"319","f","bus","olymp","Honest",4.23
-"320","f","bus","olymp","Intelligent",3.77
-"321","f","bus","olymp","Powerful",3.87
-"322","f","bus","olymp","Reliable",4.17
-"323","f","bus","olymp","Skilful",4.53
-"324","f","bus","olymp","Trustworthy",4.1
-"325","m","bus","olymp","Ambitious",4.4
-"326","m","bus","olymp","Charitable",3.4
-"327","m","bus","olymp","Family.Orientated",3.1
-"328","m","bus","olymp","Honest",4.13
-"329","m","bus","olymp","Intelligent",3.73
-"330","m","bus","olymp","Powerful",3.67
-"331","m","bus","olymp","Reliable",4.13
-"332","m","bus","olymp","Skilful",4.33
-"333","m","bus","olymp","Trustworthy",4.03
-"334","f","pubt","pilot","Ambitious",4.27
-"335","f","pubt","pilot","Charitable",3.1
-"336","f","pubt","pilot","Family.Orientated",3.17
-"337","f","pubt","pilot","Honest",4.27
-"338","f","pubt","pilot","Intelligent",4.37
-"339","f","pubt","pilot","Powerful",4.07
-"340","f","pubt","pilot","Reliable",4.37
-"341","f","pubt","pilot","Skilful",4.63
-"342","f","pubt","pilot","Trustworthy",4.33
-"343","m","pubt","pilot","Ambitious",4.27
-"344","m","pubt","pilot","Charitable",3.13
-"345","m","pubt","pilot","Family.Orientated",3.13
-"346","m","pubt","pilot","Honest",4.37
-"347","m","pubt","pilot","Intelligent",4.47
-"348","m","pubt","pilot","Powerful",4.17
-"349","m","pubt","pilot","Reliable",4.33
-"350","m","pubt","pilot","Skilful",4.57
-"351","m","pubt","pilot","Trustworthy",4.43
-"352","f","med","proof","Ambitious",3.43
-"353","f","med","proof","Charitable",3
-"354","f","med","proof","Family.Orientated",3.3
-"355","f","med","proof","Honest",4
-"356","f","med","proof","Intelligent",3.67
-"357","f","med","proof","Powerful",3
-"358","f","med","proof","Reliable",3.8
-"359","f","med","proof","Skilful",3.67
-"360","f","med","proof","Trustworthy",3.83
-"361","m","med","proof","Ambitious",2.93
-"362","m","med","proof","Charitable",4.2
-"363","m","med","proof","Family.Orientated",2.9
-"364","m","med","proof","Honest",4.4
-"365","m","med","proof","Intelligent",3.77
-"366","m","med","proof","Powerful",2.6
-"367","m","med","proof","Reliable",3.9
-"368","m","med","proof","Skilful",3.5
-"369","m","med","proof","Trustworthy",3.97
-"370","f","bus","prop","Ambitious",3.83
-"371","f","bus","prop","Charitable",2.73
-"372","f","bus","prop","Family.Orientated",3.2
-"373","f","bus","prop","Honest",3.67
-"374","f","bus","prop","Intelligent",3.63
-"375","f","bus","prop","Powerful",3.33
-"376","f","bus","prop","Reliable",3.6
-"377","f","bus","prop","Skilful",3.77
-"378","f","bus","prop","Trustworthy",3.5
-"379","m","bus","prop","Ambitious",3.83
-"380","m","bus","prop","Charitable",2.53
-"381","m","bus","prop","Family.Orientated",3.17
-"382","m","bus","prop","Honest",3.13
-"383","m","bus","prop","Intelligent",3.83
-"384","m","bus","prop","Powerful",3.1
-"385","m","bus","prop","Reliable",3.37
-"386","m","bus","prop","Skilful",3.83
-"387","m","bus","prop","Trustworthy",3.17
-"388","f","bus","retail","Ambitious",2.53
-"389","f","bus","retail","Charitable",2.4
-"390","f","bus","retail","Family.Orientated",3.27
-"391","f","bus","retail","Honest",2.97
-"392","f","bus","retail","Intelligent",2.73
-"393","f","bus","retail","Powerful",1.9
-"394","f","bus","retail","Reliable",3.1
-"395","f","bus","retail","Skilful",2.73
-"396","f","bus","retail","Trustworthy",3
-"397","m","bus","retail","Ambitious",2.5
-"398","m","bus","retail","Charitable",2.47
-"399","m","bus","retail","Family.Orientated",2.93
-"400","m","bus","retail","Honest",2.9
-"401","m","bus","retail","Intelligent",2.67
-"402","m","bus","retail","Powerful",1.9
-"403","m","bus","retail","Reliable",2.97
-"404","m","bus","retail","Skilful",2.83
-"405","m","bus","retail","Trustworthy",2.93
-"406","f","bus","shelf","Ambitious",2.3
-"407","f","bus","shelf","Charitable",2.17
-"408","f","bus","shelf","Family.Orientated",3.07
-"409","f","bus","shelf","Honest",2.77
-"410","f","bus","shelf","Intelligent",2.47
-"411","f","bus","shelf","Powerful",1.73
-"412","f","bus","shelf","Reliable",2.87
-"413","f","bus","shelf","Skilful",2.4
-"414","f","bus","shelf","Trustworthy",2.77
-"415","m","bus","shelf","Ambitious",2.43
-"416","m","bus","shelf","Charitable",2.5
-"417","m","bus","shelf","Family.Orientated",3.1
-"418","m","bus","shelf","Honest",3
-"419","m","bus","shelf","Intelligent",2.67
-"420","m","bus","shelf","Powerful",1.8
-"421","m","bus","shelf","Reliable",3.1
-"422","m","bus","shelf","Skilful",2.53
-"423","m","bus","shelf","Trustworthy",2.9
-"424","f","heal","stnur","Ambitious",4.1
-"425","f","heal","stnur","Charitable",4.57
-"426","f","heal","stnur","Family.Orientated",3.57
-"427","f","heal","stnur","Honest",4.63
-"428","f","heal","stnur","Intelligent",4.23
-"429","f","heal","stnur","Powerful",2.87
-"430","f","heal","stnur","Reliable",4.47
-"431","f","heal","stnur","Skilful",4.3
-"432","f","heal","stnur","Trustworthy",4.4
-"433","m","heal","stnur","Ambitious",3.97
-"434","m","heal","stnur","Charitable",3.8
-"435","m","heal","stnur","Family.Orientated",3.77
-"436","m","heal","stnur","Honest",4.23
-"437","m","heal","stnur","Intelligent",4.33
-"438","m","heal","stnur","Powerful",3.17
-"439","m","heal","stnur","Reliable",4.3
-"440","m","heal","stnur","Skilful",4.23
-"441","m","heal","stnur","Trustworthy",4.1
-"442","f","bus","super","Ambitious",3.6
-"443","f","bus","super","Charitable",3.03
-"444","f","bus","super","Family.Orientated",3.27
-"445","f","bus","super","Honest",3.57
-"446","f","bus","super","Intelligent",3.37
-"447","f","bus","super","Powerful",3.43
-"448","f","bus","super","Reliable",3.53
-"449","f","bus","super","Skilful",3.53
-"450","f","bus","super","Trustworthy",3.53
-"451","m","bus","super","Ambitious",3.6
-"452","m","bus","super","Charitable",2.7
-"453","m","bus","super","Family.Orientated",3.1
-"454","m","bus","super","Honest",3.3
-"455","m","bus","super","Intelligent",3.1
-"456","m","bus","super","Powerful",3.53
-"457","m","bus","super","Reliable",3.3
-"458","m","bus","super","Skilful",3.1
-"459","m","bus","super","Trustworthy",3.27
-"460","f","edu","ta","Ambitious",3.53
-"461","f","edu","ta","Charitable",3.8
-"462","f","edu","ta","Family.Orientated",4
-"463","f","edu","ta","Honest",4
-"464","f","edu","ta","Intelligent",3.9
-"465","f","edu","ta","Powerful",3.1
-"466","f","edu","ta","Reliable",4.27
-"467","f","edu","ta","Skilful",3.9
-"468","f","edu","ta","Trustworthy",4.1
-"469","m","edu","ta","Ambitious",3.4
-"470","m","edu","ta","Charitable",3.07
-"471","m","edu","ta","Family.Orientated",3.4
-"472","m","edu","ta","Honest",3.77
-"473","m","edu","ta","Intelligent",3.77
-"474","m","edu","ta","Powerful",2.8
-"475","m","edu","ta","Reliable",3.8
-"476","m","edu","ta","Skilful",3.53
-"477","m","edu","ta","Trustworthy",3.67
-"478","f","med","tv","Ambitious",3.77
-"479","f","med","tv","Charitable",3.03
-"480","f","med","tv","Family.Orientated",3.2
-"481","f","med","tv","Honest",3.13
-"482","f","med","tv","Intelligent",3.7
-"483","f","med","tv","Powerful",3.4
-"484","f","med","tv","Reliable",3.43
-"485","f","med","tv","Skilful",3.7
-"486","f","med","tv","Trustworthy",3.2
-"487","m","med","tv","Ambitious",3.8
-"488","m","med","tv","Charitable",2.77
-"489","m","med","tv","Family.Orientated",2.9
-"490","m","med","tv","Honest",2.97
-"491","m","med","tv","Intelligent",3.37
-"492","m","med","tv","Powerful",3.47
-"493","m","med","tv","Reliable",3.13
-"494","m","med","tv","Skilful",3.53
-"495","m","med","tv","Trustworthy",2.93
-"496","f","med","tvcam","Ambitious",3.07
-"497","f","med","tvcam","Charitable",2.6
-"498","f","med","tvcam","Family.Orientated",2.93
-"499","f","med","tvcam","Honest",3.1
-"500","f","med","tvcam","Intelligent",3.03
-"501","f","med","tvcam","Powerful",2.4
-"502","f","med","tvcam","Reliable",3.4
-"503","f","med","tvcam","Skilful",3.57
-"504","f","med","tvcam","Trustworthy",3.23
-"505","m","med","tvcam","Ambitious",3.1
-"506","m","med","tvcam","Charitable",2.63
-"507","m","med","tvcam","Family.Orientated",2.77
-"508","m","med","tvcam","Honest",3.23
-"509","m","med","tvcam","Intelligent",3
-"510","m","med","tvcam","Powerful",2.53
-"511","m","med","tvcam","Reliable",3.47
-"512","m","med","tvcam","Skilful",3.63
-"513","m","med","tvcam","Trustworthy",3.47
-"514","f","edu","vc","Ambitious",4.43
-"515","f","edu","vc","Charitable",3.3
-"516","f","edu","vc","Family.Orientated",3.2
-"517","f","edu","vc","Honest",3.87
-"518","f","edu","vc","Intelligent",4.33
-"519","f","edu","vc","Powerful",4.37
-"520","f","edu","vc","Reliable",3.97
-"521","f","edu","vc","Skilful",4.2
-"522","f","edu","vc","Trustworthy",4
-"523","m","edu","vc","Ambitious",3.93
-"524","m","edu","vc","Charitable",3.17
-"525","m","edu","vc","Family.Orientated",3.17
-"526","m","edu","vc","Honest",3.47
-"527","m","edu","vc","Intelligent",4.23
-"528","m","edu","vc","Powerful",4.27
-"529","m","edu","vc","Reliable",3.7
-"530","m","edu","vc","Skilful",3.87
-"531","m","edu","vc","Trustworthy",3.6
-"532","f","heal","vet","Ambitious",4.5
-"533","f","heal","vet","Charitable",3.8
-"534","f","heal","vet","Family.Orientated",3.5
-"535","f","heal","vet","Honest",4.4
-"536","f","heal","vet","Intelligent",4.7
-"537","f","heal","vet","Powerful",4.1
-"538","f","heal","vet","Reliable",4.43
-"539","f","heal","vet","Skilful",4.63
-"540","f","heal","vet","Trustworthy",4.43
-"541","m","heal","vet","Ambitious",4.43
-"542","m","heal","vet","Charitable",3.9
-"543","m","heal","vet","Family.Orientated",3.63
-"544","m","heal","vet","Honest",4.27
-"545","m","heal","vet","Intelligent",4.57
-"546","m","heal","vet","Powerful",3.83
-"547","m","heal","vet","Reliable",4.57
-"548","m","heal","vet","Skilful",4.53
-"549","m","heal","vet","Trustworthy",4.33
-"550","f","bus","wait","Ambitious",2.59
-"551","f","bus","wait","Charitable",2.52
-"552","f","bus","wait","Family.Orientated",3.21
-"553","f","bus","wait","Honest",3.21
-"554","f","bus","wait","Intelligent",2.72
-"555","f","bus","wait","Powerful",1.93
-"556","f","bus","wait","Reliable",3.52
-"557","f","bus","wait","Skilful",3
-"558","f","bus","wait","Trustworthy",3.24
-"559","m","bus","wait","Ambitious",2.53
-"560","m","bus","wait","Charitable",4.1
-"561","m","bus","wait","Family.Orientated",3.3
-"562","m","bus","wait","Honest",4
-"563","m","bus","wait","Intelligent",2.87
-"564","m","bus","wait","Powerful",1.93
-"565","m","bus","wait","Reliable",3.37
-"566","m","bus","wait","Skilful",3.03
-"567","m","bus","wait","Trustworthy",3.43
+,Gender,Sector,Job,Characteristic,Response
+1,f,bus,Accountant,Ambitious,4.03
+2,f,bus,Accountant,Charitable,2.83
+3,f,bus,Accountant,Family.Orientated,3.27
+4,f,bus,Accountant,Honest,3.83
+5,f,bus,Accountant,Intelligent,4.37
+6,f,bus,Accountant,Powerful,3.63
+7,f,bus,Accountant,Reliable,4.03
+8,f,bus,Accountant,Skilful,4.2
+9,f,bus,Accountant,Trustworthy,3.9
+10,m,bus,Accountant,Ambitious,3.93
+11,m,bus,Accountant,Charitable,2.7
+12,m,bus,Accountant,Family.Orientated,3.1
+13,m,bus,Accountant,Honest,3.57
+14,m,bus,Accountant,Intelligent,4.33
+15,m,bus,Accountant,Powerful,3.87
+16,m,bus,Accountant,Reliable,3.8
+17,m,bus,Accountant,Skilful,4.13
+18,m,bus,Accountant,Trustworthy,3.7
+19,f,bus,Admin assistant / Office clerk,Ambitious,3.21
+20,f,bus,Admin assistant / Office clerk,Charitable,2.93
+21,f,bus,Admin assistant / Office clerk,Family.Orientated,3.45
+22,f,bus,Admin assistant / Office clerk,Honest,3.48
+23,f,bus,Admin assistant / Office clerk,Intelligent,3.31
+24,f,bus,Admin assistant / Office clerk,Powerful,2.55
+25,f,bus,Admin assistant / Office clerk,Reliable,3.52
+26,f,bus,Admin assistant / Office clerk,Skilful,3.41
+27,f,bus,Admin assistant / Office clerk,Trustworthy,3.41
+28,m,bus,Admin assistant / Office clerk,Ambitious,2.77
+29,m,bus,Admin assistant / Office clerk,Charitable,2.73
+30,m,bus,Admin assistant / Office clerk,Family.Orientated,3.17
+31,m,bus,Admin assistant / Office clerk,Honest,3.4
+32,m,bus,Admin assistant / Office clerk,Intelligent,3.23
+33,m,bus,Admin assistant / Office clerk,Powerful,2.3
+34,m,bus,Admin assistant / Office clerk,Reliable,3.53
+35,m,bus,Admin assistant / Office clerk,Skilful,3.43
+36,m,bus,Admin assistant / Office clerk,Trustworthy,3.6
+37,f,bus,Apprentice electrician,Ambitious,3.27
+38,f,bus,Apprentice electrician,Charitable,2.67
+39,f,bus,Apprentice electrician,Family.Orientated,3.1
+40,f,bus,Apprentice electrician,Honest,3.2
+41,f,bus,Apprentice electrician,Intelligent,3.07
+42,f,bus,Apprentice electrician,Powerful,2.03
+43,f,bus,Apprentice electrician,Reliable,3.13
+44,f,bus,Apprentice electrician,Skilful,3.37
+45,f,bus,Apprentice electrician,Trustworthy,3.13
+46,m,bus,Apprentice electrician,Ambitious,3.4
+47,m,bus,Apprentice electrician,Charitable,2.4
+48,m,bus,Apprentice electrician,Family.Orientated,3.07
+49,m,bus,Apprentice electrician,Honest,3.3
+50,m,bus,Apprentice electrician,Intelligent,3.2
+51,m,bus,Apprentice electrician,Powerful,2.1
+52,m,bus,Apprentice electrician,Reliable,2.97
+53,m,bus,Apprentice electrician,Skilful,3.53
+54,m,bus,Apprentice electrician,Trustworthy,3.17
+55,f,bus,Bar / Night club staff,Ambitious,2.53
+56,f,bus,Bar / Night club staff,Charitable,2.47
+57,f,bus,Bar / Night club staff,Family.Orientated,2.73
+58,f,bus,Bar / Night club staff,Honest,3.17
+59,f,bus,Bar / Night club staff,Intelligent,2.7
+60,f,bus,Bar / Night club staff,Powerful,2.03
+61,f,bus,Bar / Night club staff,Reliable,3.23
+62,f,bus,Bar / Night club staff,Skilful,3.23
+63,f,bus,Bar / Night club staff,Trustworthy,3.03
+64,m,bus,Bar / Night club staff,Ambitious,2.73
+65,m,bus,Bar / Night club staff,Charitable,2.53
+66,m,bus,Bar / Night club staff,Family.Orientated,2.7
+67,m,bus,Bar / Night club staff,Honest,2.93
+68,m,bus,Bar / Night club staff,Intelligent,2.93
+69,m,bus,Bar / Night club staff,Powerful,2.33
+70,m,bus,Bar / Night club staff,Reliable,3
+71,m,bus,Bar / Night club staff,Skilful,3.2
+72,m,bus,Bar / Night club staff,Trustworthy,2.87
+73,f,bus,Barista (coffee shop),Ambitious,2.6
+74,f,bus,Barista (coffee shop),Charitable,2.6
+75,f,bus,Barista (coffee shop),Family.Orientated,2.83
+76,f,bus,Barista (coffee shop),Honest,3.07
+77,f,bus,Barista (coffee shop),Intelligent,2.53
+78,f,bus,Barista (coffee shop),Powerful,2
+79,f,bus,Barista (coffee shop),Reliable,3.2
+80,f,bus,Barista (coffee shop),Skilful,3.03
+81,f,bus,Barista (coffee shop),Trustworthy,3.03
+82,m,bus,Barista (coffee shop),Ambitious,2.77
+83,m,bus,Barista (coffee shop),Charitable,2.63
+84,m,bus,Barista (coffee shop),Family.Orientated,3.07
+85,m,bus,Barista (coffee shop),Honest,3.37
+86,m,bus,Barista (coffee shop),Intelligent,2.93
+87,m,bus,Barista (coffee shop),Powerful,1.9
+88,m,bus,Barista (coffee shop),Reliable,3.33
+89,m,bus,Barista (coffee shop),Skilful,3.57
+90,m,bus,Barista (coffee shop),Trustworthy,3.27
+91,f,gov,Barrister / Judge,Ambitious,4.53
+92,f,gov,Barrister / Judge,Charitable,3.27
+93,f,gov,Barrister / Judge,Family.Orientated,3.43
+94,f,gov,Barrister / Judge,Honest,4.13
+95,f,gov,Barrister / Judge,Intelligent,4.63
+96,f,gov,Barrister / Judge,Powerful,4.6
+97,f,gov,Barrister / Judge,Reliable,4.13
+98,f,gov,Barrister / Judge,Skilful,4.3
+99,f,gov,Barrister / Judge,Trustworthy,4.13
+100,m,gov,Barrister / Judge,Ambitious,4.23
+101,m,gov,Barrister / Judge,Charitable,4
+102,m,gov,Barrister / Judge,Family.Orientated,2.8
+103,m,gov,Barrister / Judge,Honest,4.3
+104,m,gov,Barrister / Judge,Intelligent,4.53
+105,m,gov,Barrister / Judge,Powerful,4.6
+106,m,gov,Barrister / Judge,Reliable,4.23
+107,m,gov,Barrister / Judge,Skilful,4.37
+108,m,gov,Barrister / Judge,Trustworthy,4
+109,f,gov,Bin collection worker,Ambitious,2.2
+110,f,gov,Bin collection worker,Charitable,2.47
+111,f,gov,Bin collection worker,Family.Orientated,2.97
+112,f,gov,Bin collection worker,Honest,2.93
+113,f,gov,Bin collection worker,Intelligent,2.23
+114,f,gov,Bin collection worker,Powerful,1.8
+115,f,gov,Bin collection worker,Reliable,3.1
+116,f,gov,Bin collection worker,Skilful,2.37
+117,f,gov,Bin collection worker,Trustworthy,2.97
+118,m,gov,Bin collection worker,Ambitious,2.2
+119,m,gov,Bin collection worker,Charitable,2.5
+120,m,gov,Bin collection worker,Family.Orientated,2.9
+121,m,gov,Bin collection worker,Honest,2.87
+122,m,gov,Bin collection worker,Intelligent,2.33
+123,m,gov,Bin collection worker,Powerful,1.77
+124,m,gov,Bin collection worker,Reliable,3.1
+125,m,gov,Bin collection worker,Skilful,2.47
+126,m,gov,Bin collection worker,Trustworthy,2.93
+127,f,bus,Business Person / Entrepreneur / CEO,Ambitious,4.57
+128,f,bus,Business Person / Entrepreneur / CEO,Charitable,2.87
+129,f,bus,Business Person / Entrepreneur / CEO,Family.Orientated,3.07
+130,f,bus,Business Person / Entrepreneur / CEO,Honest,3.27
+131,f,bus,Business Person / Entrepreneur / CEO,Intelligent,4.4
+132,f,bus,Business Person / Entrepreneur / CEO,Powerful,4.63
+133,f,bus,Business Person / Entrepreneur / CEO,Reliable,3.77
+134,f,bus,Business Person / Entrepreneur / CEO,Skilful,4.43
+135,f,bus,Business Person / Entrepreneur / CEO,Trustworthy,3.37
+136,m,bus,Business Person / Entrepreneur / CEO,Ambitious,4.4
+137,m,bus,Business Person / Entrepreneur / CEO,Charitable,2.7
+138,m,bus,Business Person / Entrepreneur / CEO,Family.Orientated,2.8
+139,m,bus,Business Person / Entrepreneur / CEO,Honest,2.83
+140,m,bus,Business Person / Entrepreneur / CEO,Intelligent,4.3
+141,m,bus,Business Person / Entrepreneur / CEO,Powerful,4.4
+142,m,bus,Business Person / Entrepreneur / CEO,Reliable,3.57
+143,m,bus,Business Person / Entrepreneur / CEO,Skilful,4.3
+144,m,bus,Business Person / Entrepreneur / CEO,Trustworthy,3
+145,f,gov,Civil Servant,Ambitious,3.4
+146,f,gov,Civil Servant,Charitable,3.27
+147,f,gov,Civil Servant,Family.Orientated,3.37
+148,f,gov,Civil Servant,Honest,3.5
+149,f,gov,Civil Servant,Intelligent,3.63
+150,f,gov,Civil Servant,Powerful,3.27
+151,f,gov,Civil Servant,Reliable,3.6
+152,f,gov,Civil Servant,Skilful,3.6
+153,f,gov,Civil Servant,Trustworthy,3.53
+154,m,gov,Civil Servant,Ambitious,3.4
+155,m,gov,Civil Servant,Charitable,3.07
+156,m,gov,Civil Servant,Family.Orientated,3.2
+157,m,gov,Civil Servant,Honest,3.4
+158,m,gov,Civil Servant,Intelligent,3.57
+159,m,gov,Civil Servant,Powerful,3.33
+160,m,gov,Civil Servant,Reliable,3.57
+161,m,gov,Civil Servant,Skilful,3.53
+162,m,gov,Civil Servant,Trustworthy,3.57
+163,f,heal,Cleaner,Ambitious,2.3
+164,f,heal,Cleaner,Charitable,2.87
+165,f,heal,Cleaner,Family.Orientated,3.53
+166,f,heal,Cleaner,Honest,3.4
+167,f,heal,Cleaner,Intelligent,2.27
+168,f,heal,Cleaner,Powerful,1.87
+169,f,heal,Cleaner,Reliable,3.43
+170,f,heal,Cleaner,Skilful,2.63
+171,f,heal,Cleaner,Trustworthy,3.23
+172,m,heal,Cleaner,Ambitious,2.1
+173,m,heal,Cleaner,Charitable,2.27
+174,m,heal,Cleaner,Family.Orientated,2.87
+175,m,heal,Cleaner,Honest,2.73
+176,m,heal,Cleaner,Intelligent,2.17
+177,m,heal,Cleaner,Powerful,1.8
+178,m,heal,Cleaner,Reliable,2.87
+179,m,heal,Cleaner,Skilful,2.43
+180,m,heal,Cleaner,Trustworthy,2.8
+181,f,heal,Doctor / Consultant Physician,Ambitious,4.53
+182,f,heal,Doctor / Consultant Physician,Charitable,3.83
+183,f,heal,Doctor / Consultant Physician,Family.Orientated,3.53
+184,f,heal,Doctor / Consultant Physician,Honest,4.5
+185,f,heal,Doctor / Consultant Physician,Intelligent,4.87
+186,f,heal,Doctor / Consultant Physician,Powerful,4.57
+187,f,heal,Doctor / Consultant Physician,Reliable,4.5
+188,f,heal,Doctor / Consultant Physician,Skilful,4.73
+189,f,heal,Doctor / Consultant Physician,Trustworthy,4.5
+190,m,heal,Doctor / Consultant Physician,Ambitious,4.43
+191,m,heal,Doctor / Consultant Physician,Charitable,3.8
+192,m,heal,Doctor / Consultant Physician,Family.Orientated,3.7
+193,m,heal,Doctor / Consultant Physician,Honest,4.3
+194,m,heal,Doctor / Consultant Physician,Intelligent,4.8
+195,m,heal,Doctor / Consultant Physician,Powerful,4.33
+196,m,heal,Doctor / Consultant Physician,Reliable,4.43
+197,m,heal,Doctor / Consultant Physician,Skilful,4.7
+198,m,heal,Doctor / Consultant Physician,Trustworthy,4.4
+199,f,pubt,Public transport driver,Ambitious,2.27
+200,f,pubt,Public transport driver,Charitable,2.47
+201,f,pubt,Public transport driver,Family.Orientated,3.03
+202,f,pubt,Public transport driver,Honest,3.17
+203,f,pubt,Public transport driver,Intelligent,2.43
+204,f,pubt,Public transport driver,Powerful,2.03
+205,f,pubt,Public transport driver,Reliable,3.13
+206,f,pubt,Public transport driver,Skilful,3
+207,f,pubt,Public transport driver,Trustworthy,3.13
+208,m,pubt,Public transport driver,Ambitious,2.47
+209,m,pubt,Public transport driver,Charitable,2.7
+210,m,pubt,Public transport driver,Family.Orientated,3.07
+211,m,pubt,Public transport driver,Honest,3.2
+212,m,pubt,Public transport driver,Intelligent,2.67
+213,m,pubt,Public transport driver,Powerful,2.2
+214,m,pubt,Public transport driver,Reliable,3.07
+215,m,pubt,Public transport driver,Skilful,3.13
+216,m,pubt,Public transport driver,Trustworthy,3.13
+217,f,med,Newspaper Editor,Ambitious,3.8
+218,f,med,Newspaper Editor,Charitable,2.8
+219,f,med,Newspaper Editor,Family.Orientated,3.03
+220,f,med,Newspaper Editor,Honest,2.7
+221,f,med,Newspaper Editor,Intelligent,4
+222,f,med,Newspaper Editor,Powerful,3.7
+223,f,med,Newspaper Editor,Reliable,3.23
+224,f,med,Newspaper Editor,Skilful,3.7
+225,f,med,Newspaper Editor,Trustworthy,2.73
+226,m,med,Newspaper Editor,Ambitious,3.87
+227,m,med,Newspaper Editor,Charitable,3.4
+228,m,med,Newspaper Editor,Family.Orientated,2.87
+229,m,med,Newspaper Editor,Honest,2.93
+230,m,med,Newspaper Editor,Intelligent,4.03
+231,m,med,Newspaper Editor,Powerful,3.33
+232,m,med,Newspaper Editor,Reliable,2.87
+233,m,med,Newspaper Editor,Skilful,3.9
+234,m,med,Newspaper Editor,Trustworthy,2.53
+235,f,bus,Electrical / Aircraft Engineer,Ambitious,4.03
+236,f,bus,Electrical / Aircraft Engineer,Charitable,2.97
+237,f,bus,Electrical / Aircraft Engineer,Family.Orientated,3.17
+238,f,bus,Electrical / Aircraft Engineer,Honest,3.77
+239,f,bus,Electrical / Aircraft Engineer,Intelligent,4.27
+240,f,bus,Electrical / Aircraft Engineer,Powerful,3.4
+241,f,bus,Electrical / Aircraft Engineer,Reliable,4.1
+242,f,bus,Electrical / Aircraft Engineer,Skilful,4.27
+243,f,bus,Electrical / Aircraft Engineer,Trustworthy,3.83
+244,m,bus,Electrical / Aircraft Engineer,Ambitious,3.83
+245,m,bus,Electrical / Aircraft Engineer,Charitable,3.03
+246,m,bus,Electrical / Aircraft Engineer,Family.Orientated,3.17
+247,m,bus,Electrical / Aircraft Engineer,Honest,3.77
+248,m,bus,Electrical / Aircraft Engineer,Intelligent,4.3
+249,m,bus,Electrical / Aircraft Engineer,Powerful,3.2
+250,m,bus,Electrical / Aircraft Engineer,Reliable,4.07
+251,m,bus,Electrical / Aircraft Engineer,Skilful,4.5
+252,m,bus,Electrical / Aircraft Engineer,Trustworthy,3.87
+253,f,mil,Entry level Military personnel,Ambitious,3.87
+254,f,mil,Entry level Military personnel,Charitable,3.3
+255,f,mil,Entry level Military personnel,Family.Orientated,3.03
+256,f,mil,Entry level Military personnel,Honest,3.67
+257,f,mil,Entry level Military personnel,Intelligent,3.43
+258,f,mil,Entry level Military personnel,Powerful,2.77
+259,f,mil,Entry level Military personnel,Reliable,3.6
+260,f,mil,Entry level Military personnel,Skilful,3.67
+261,f,mil,Entry level Military personnel,Trustworthy,3.53
+262,m,mil,Entry level Military personnel,Ambitious,3.9
+263,m,mil,Entry level Military personnel,Charitable,3.5
+264,m,mil,Entry level Military personnel,Family.Orientated,3.03
+265,m,mil,Entry level Military personnel,Honest,3.63
+266,m,mil,Entry level Military personnel,Intelligent,3.47
+267,m,mil,Entry level Military personnel,Powerful,2.93
+268,m,mil,Entry level Military personnel,Reliable,3.77
+269,m,mil,Entry level Military personnel,Skilful,4.03
+270,m,mil,Entry level Military personnel,Trustworthy,3.67
+271,f,mil,General / Officer / Admiral,Ambitious,3.97
+272,f,mil,General / Officer / Admiral,Charitable,3.77
+273,f,mil,General / Officer / Admiral,Family.Orientated,2.9
+274,f,mil,General / Officer / Admiral,Honest,4.37
+275,f,mil,General / Officer / Admiral,Intelligent,3.93
+276,f,mil,General / Officer / Admiral,Powerful,4.13
+277,f,mil,General / Officer / Admiral,Reliable,4.17
+278,f,mil,General / Officer / Admiral,Skilful,4.07
+279,f,mil,General / Officer / Admiral,Trustworthy,4.1
+280,m,mil,General / Officer / Admiral,Ambitious,4.07
+281,m,mil,General / Officer / Admiral,Charitable,3.13
+282,m,mil,General / Officer / Admiral,Family.Orientated,3.23
+283,m,mil,General / Officer / Admiral,Honest,3.9
+284,m,mil,General / Officer / Admiral,Intelligent,3.83
+285,m,mil,General / Officer / Admiral,Powerful,3.97
+286,m,mil,General / Officer / Admiral,Reliable,4.03
+287,m,mil,General / Officer / Admiral,Skilful,4.2
+288,m,mil,General / Officer / Admiral,Trustworthy,3.87
+289,f,edu,Head teacher ,Ambitious,4.2
+290,f,edu,Head teacher ,Charitable,3.53
+291,f,edu,Head teacher ,Family.Orientated,3.63
+292,f,edu,Head teacher ,Honest,4
+293,f,edu,Head teacher ,Intelligent,4.27
+294,f,edu,Head teacher ,Powerful,4.2
+295,f,edu,Head teacher ,Reliable,4.03
+296,f,edu,Head teacher ,Skilful,4.03
+297,f,edu,Head teacher ,Trustworthy,4.1
+298,m,edu,Head teacher ,Ambitious,3.87
+299,m,edu,Head teacher ,Charitable,3.7
+300,m,edu,Head teacher ,Family.Orientated,3.4
+301,m,edu,Head teacher ,Honest,3.97
+302,m,edu,Head teacher ,Intelligent,4.07
+303,m,edu,Head teacher ,Powerful,4.27
+304,m,edu,Head teacher ,Reliable,3.67
+305,m,edu,Head teacher ,Skilful,3.83
+306,m,edu,Head teacher ,Trustworthy,3.97
+307,f,gov,MP / Prime minister / President,Ambitious,4.57
+308,f,gov,MP / Prime minister / President,Charitable,2.8
+309,f,gov,MP / Prime minister / President,Family.Orientated,2.77
+310,f,gov,MP / Prime minister / President,Honest,2.9
+311,f,gov,MP / Prime minister / President,Intelligent,4.23
+312,f,gov,MP / Prime minister / President,Powerful,4.83
+313,f,gov,MP / Prime minister / President,Reliable,2.8
+314,f,gov,MP / Prime minister / President,Skilful,3.87
+315,f,gov,MP / Prime minister / President,Trustworthy,2.83
+316,m,gov,MP / Prime minister / President,Ambitious,4.5
+317,m,gov,MP / Prime minister / President,Charitable,2.73
+318,m,gov,MP / Prime minister / President,Family.Orientated,2.83
+319,m,gov,MP / Prime minister / President,Honest,2.67
+320,m,gov,MP / Prime minister / President,Intelligent,4.1
+321,m,gov,MP / Prime minister / President,Powerful,4.7
+322,m,gov,MP / Prime minister / President,Reliable,2.97
+323,m,gov,MP / Prime minister / President,Skilful,3.9
+324,m,gov,MP / Prime minister / President,Trustworthy,2.67
+325,f,bus,Olympic team GB coach,Ambitious,4.6
+326,f,bus,Olympic team GB coach,Charitable,3.57
+327,f,bus,Olympic team GB coach,Family.Orientated,3.17
+328,f,bus,Olympic team GB coach,Honest,4.23
+329,f,bus,Olympic team GB coach,Intelligent,3.77
+330,f,bus,Olympic team GB coach,Powerful,3.87
+331,f,bus,Olympic team GB coach,Reliable,4.17
+332,f,bus,Olympic team GB coach,Skilful,4.53
+333,f,bus,Olympic team GB coach,Trustworthy,4.1
+334,m,bus,Olympic team GB coach,Ambitious,4.4
+335,m,bus,Olympic team GB coach,Charitable,3.4
+336,m,bus,Olympic team GB coach,Family.Orientated,3.1
+337,m,bus,Olympic team GB coach,Honest,4.13
+338,m,bus,Olympic team GB coach,Intelligent,3.73
+339,m,bus,Olympic team GB coach,Powerful,3.67
+340,m,bus,Olympic team GB coach,Reliable,4.13
+341,m,bus,Olympic team GB coach,Skilful,4.33
+342,m,bus,Olympic team GB coach,Trustworthy,4.03
+343,f,pubt,Airplane Pilot,Ambitious,4.27
+344,f,pubt,Airplane Pilot,Charitable,3.1
+345,f,pubt,Airplane Pilot,Family.Orientated,3.17
+346,f,pubt,Airplane Pilot,Honest,4.27
+347,f,pubt,Airplane Pilot,Intelligent,4.37
+348,f,pubt,Airplane Pilot,Powerful,4.07
+349,f,pubt,Airplane Pilot,Reliable,4.37
+350,f,pubt,Airplane Pilot,Skilful,4.63
+351,f,pubt,Airplane Pilot,Trustworthy,4.33
+352,m,pubt,Airplane Pilot,Ambitious,4.27
+353,m,pubt,Airplane Pilot,Charitable,3.13
+354,m,pubt,Airplane Pilot,Family.Orientated,3.13
+355,m,pubt,Airplane Pilot,Honest,4.37
+356,m,pubt,Airplane Pilot,Intelligent,4.47
+357,m,pubt,Airplane Pilot,Powerful,4.17
+358,m,pubt,Airplane Pilot,Reliable,4.33
+359,m,pubt,Airplane Pilot,Skilful,4.57
+360,m,pubt,Airplane Pilot,Trustworthy,4.43
+361,f,med,Proof reader,Ambitious,3.43
+362,f,med,Proof reader,Charitable,3
+363,f,med,Proof reader,Family.Orientated,3.3
+364,f,med,Proof reader,Honest,4
+365,f,med,Proof reader,Intelligent,3.67
+366,f,med,Proof reader,Powerful,3
+367,f,med,Proof reader,Reliable,3.8
+368,f,med,Proof reader,Skilful,3.67
+369,f,med,Proof reader,Trustworthy,3.83
+370,m,med,Proof reader,Ambitious,2.93
+371,m,med,Proof reader,Charitable,4.2
+372,m,med,Proof reader,Family.Orientated,2.9
+373,m,med,Proof reader,Honest,4.4
+374,m,med,Proof reader,Intelligent,3.77
+375,m,med,Proof reader,Powerful,2.6
+376,m,med,Proof reader,Reliable,3.9
+377,m,med,Proof reader,Skilful,3.5
+378,m,med,Proof reader,Trustworthy,3.97
+379,f,bus,Property Developer,Ambitious,3.83
+380,f,bus,Property Developer,Charitable,2.73
+381,f,bus,Property Developer,Family.Orientated,3.2
+382,f,bus,Property Developer,Honest,3.67
+383,f,bus,Property Developer,Intelligent,3.63
+384,f,bus,Property Developer,Powerful,3.33
+385,f,bus,Property Developer,Reliable,3.6
+386,f,bus,Property Developer,Skilful,3.77
+387,f,bus,Property Developer,Trustworthy,3.5
+388,m,bus,Property Developer,Ambitious,3.83
+389,m,bus,Property Developer,Charitable,2.53
+390,m,bus,Property Developer,Family.Orientated,3.17
+391,m,bus,Property Developer,Honest,3.13
+392,m,bus,Property Developer,Intelligent,3.83
+393,m,bus,Property Developer,Powerful,3.1
+394,m,bus,Property Developer,Reliable,3.37
+395,m,bus,Property Developer,Skilful,3.83
+396,m,bus,Property Developer,Trustworthy,3.17
+397,f,bus,Retail shop assistant,Ambitious,2.53
+398,f,bus,Retail shop assistant,Charitable,2.4
+399,f,bus,Retail shop assistant,Family.Orientated,3.27
+400,f,bus,Retail shop assistant,Honest,2.97
+401,f,bus,Retail shop assistant,Intelligent,2.73
+402,f,bus,Retail shop assistant,Powerful,1.9
+403,f,bus,Retail shop assistant,Reliable,3.1
+404,f,bus,Retail shop assistant,Skilful,2.73
+405,f,bus,Retail shop assistant,Trustworthy,3
+406,m,bus,Retail shop assistant,Ambitious,2.5
+407,m,bus,Retail shop assistant,Charitable,2.47
+408,m,bus,Retail shop assistant,Family.Orientated,2.93
+409,m,bus,Retail shop assistant,Honest,2.9
+410,m,bus,Retail shop assistant,Intelligent,2.67
+411,m,bus,Retail shop assistant,Powerful,1.9
+412,m,bus,Retail shop assistant,Reliable,2.97
+413,m,bus,Retail shop assistant,Skilful,2.83
+414,m,bus,Retail shop assistant,Trustworthy,2.93
+415,f,bus,Supermarket shelf stocker,Ambitious,2.3
+416,f,bus,Supermarket shelf stocker,Charitable,2.17
+417,f,bus,Supermarket shelf stocker,Family.Orientated,3.07
+418,f,bus,Supermarket shelf stocker,Honest,2.77
+419,f,bus,Supermarket shelf stocker,Intelligent,2.47
+420,f,bus,Supermarket shelf stocker,Powerful,1.73
+421,f,bus,Supermarket shelf stocker,Reliable,2.87
+422,f,bus,Supermarket shelf stocker,Skilful,2.4
+423,f,bus,Supermarket shelf stocker,Trustworthy,2.77
+424,m,bus,Supermarket shelf stocker,Ambitious,2.43
+425,m,bus,Supermarket shelf stocker,Charitable,2.5
+426,m,bus,Supermarket shelf stocker,Family.Orientated,3.1
+427,m,bus,Supermarket shelf stocker,Honest,3
+428,m,bus,Supermarket shelf stocker,Intelligent,2.67
+429,m,bus,Supermarket shelf stocker,Powerful,1.8
+430,m,bus,Supermarket shelf stocker,Reliable,3.1
+431,m,bus,Supermarket shelf stocker,Skilful,2.53
+432,m,bus,Supermarket shelf stocker,Trustworthy,2.9
+433,f,heal,Student Nurse,Ambitious,4.1
+434,f,heal,Student Nurse,Charitable,4.57
+435,f,heal,Student Nurse,Family.Orientated,3.57
+436,f,heal,Student Nurse,Honest,4.63
+437,f,heal,Student Nurse,Intelligent,4.23
+438,f,heal,Student Nurse,Powerful,2.87
+439,f,heal,Student Nurse,Reliable,4.47
+440,f,heal,Student Nurse,Skilful,4.3
+441,f,heal,Student Nurse,Trustworthy,4.4
+442,m,heal,Student Nurse,Ambitious,3.97
+443,m,heal,Student Nurse,Charitable,3.8
+444,m,heal,Student Nurse,Family.Orientated,3.77
+445,m,heal,Student Nurse,Honest,4.23
+446,m,heal,Student Nurse,Intelligent,4.33
+447,m,heal,Student Nurse,Powerful,3.17
+448,m,heal,Student Nurse,Reliable,4.3
+449,m,heal,Student Nurse,Skilful,4.23
+450,m,heal,Student Nurse,Trustworthy,4.1
+451,f,bus,Supermarket manager,Ambitious,3.6
+452,f,bus,Supermarket manager,Charitable,3.03
+453,f,bus,Supermarket manager,Family.Orientated,3.27
+454,f,bus,Supermarket manager,Honest,3.57
+455,f,bus,Supermarket manager,Intelligent,3.37
+456,f,bus,Supermarket manager,Powerful,3.43
+457,f,bus,Supermarket manager,Reliable,3.53
+458,f,bus,Supermarket manager,Skilful,3.53
+459,f,bus,Supermarket manager,Trustworthy,3.53
+460,m,bus,Supermarket manager,Ambitious,3.6
+461,m,bus,Supermarket manager,Charitable,2.7
+462,m,bus,Supermarket manager,Family.Orientated,3.1
+463,m,bus,Supermarket manager,Honest,3.3
+464,m,bus,Supermarket manager,Intelligent,3.1
+465,m,bus,Supermarket manager,Powerful,3.53
+466,m,bus,Supermarket manager,Reliable,3.3
+467,m,bus,Supermarket manager,Skilful,3.1
+468,m,bus,Supermarket manager,Trustworthy,3.27
+469,f,edu,Teaching Assistant,Ambitious,3.53
+470,f,edu,Teaching Assistant,Charitable,3.8
+471,f,edu,Teaching Assistant,Family.Orientated,4
+472,f,edu,Teaching Assistant,Honest,4
+473,f,edu,Teaching Assistant,Intelligent,3.9
+474,f,edu,Teaching Assistant,Powerful,3.1
+475,f,edu,Teaching Assistant,Reliable,4.27
+476,f,edu,Teaching Assistant,Skilful,3.9
+477,f,edu,Teaching Assistant,Trustworthy,4.1
+478,m,edu,Teaching Assistant,Ambitious,3.4
+479,m,edu,Teaching Assistant,Charitable,3.07
+480,m,edu,Teaching Assistant,Family.Orientated,3.4
+481,m,edu,Teaching Assistant,Honest,3.77
+482,m,edu,Teaching Assistant,Intelligent,3.77
+483,m,edu,Teaching Assistant,Powerful,2.8
+484,m,edu,Teaching Assistant,Reliable,3.8
+485,m,edu,Teaching Assistant,Skilful,3.53
+486,m,edu,Teaching Assistant,Trustworthy,3.67
+487,f,med,TV Show Producer,Ambitious,3.77
+488,f,med,TV Show Producer,Charitable,3.03
+489,f,med,TV Show Producer,Family.Orientated,3.2
+490,f,med,TV Show Producer,Honest,3.13
+491,f,med,TV Show Producer,Intelligent,3.7
+492,f,med,TV Show Producer,Powerful,3.4
+493,f,med,TV Show Producer,Reliable,3.43
+494,f,med,TV Show Producer,Skilful,3.7
+495,f,med,TV Show Producer,Trustworthy,3.2
+496,m,med,TV Show Producer,Ambitious,3.8
+497,m,med,TV Show Producer,Charitable,2.77
+498,m,med,TV Show Producer,Family.Orientated,2.9
+499,m,med,TV Show Producer,Honest,2.97
+500,m,med,TV Show Producer,Intelligent,3.37
+501,m,med,TV Show Producer,Powerful,3.47
+502,m,med,TV Show Producer,Reliable,3.13
+503,m,med,TV Show Producer,Skilful,3.53
+504,m,med,TV Show Producer,Trustworthy,2.93
+505,f,med,TV Camera Operator,Ambitious,3.07
+506,f,med,TV Camera Operator,Charitable,2.6
+507,f,med,TV Camera Operator,Family.Orientated,2.93
+508,f,med,TV Camera Operator,Honest,3.1
+509,f,med,TV Camera Operator,Intelligent,3.03
+510,f,med,TV Camera Operator,Powerful,2.4
+511,f,med,TV Camera Operator,Reliable,3.4
+512,f,med,TV Camera Operator,Skilful,3.57
+513,f,med,TV Camera Operator,Trustworthy,3.23
+514,m,med,TV Camera Operator,Ambitious,3.1
+515,m,med,TV Camera Operator,Charitable,2.63
+516,m,med,TV Camera Operator,Family.Orientated,2.77
+517,m,med,TV Camera Operator,Honest,3.23
+518,m,med,TV Camera Operator,Intelligent,3
+519,m,med,TV Camera Operator,Powerful,2.53
+520,m,med,TV Camera Operator,Reliable,3.47
+521,m,med,TV Camera Operator,Skilful,3.63
+522,m,med,TV Camera Operator,Trustworthy,3.47
+523,f,edu,Vice Chancellor,Ambitious,4.43
+524,f,edu,Vice Chancellor,Charitable,3.3
+525,f,edu,Vice Chancellor,Family.Orientated,3.2
+526,f,edu,Vice Chancellor,Honest,3.87
+527,f,edu,Vice Chancellor,Intelligent,4.33
+528,f,edu,Vice Chancellor,Powerful,4.37
+529,f,edu,Vice Chancellor,Reliable,3.97
+530,f,edu,Vice Chancellor,Skilful,4.2
+531,f,edu,Vice Chancellor,Trustworthy,4
+532,m,edu,Vice Chancellor,Ambitious,3.93
+533,m,edu,Vice Chancellor,Charitable,3.17
+534,m,edu,Vice Chancellor,Family.Orientated,3.17
+535,m,edu,Vice Chancellor,Honest,3.47
+536,m,edu,Vice Chancellor,Intelligent,4.23
+537,m,edu,Vice Chancellor,Powerful,4.27
+538,m,edu,Vice Chancellor,Reliable,3.7
+539,m,edu,Vice Chancellor,Skilful,3.87
+540,m,edu,Vice Chancellor,Trustworthy,3.6
+541,f,heal,Veterinarian,Ambitious,4.5
+542,f,heal,Veterinarian,Charitable,3.8
+543,f,heal,Veterinarian,Family.Orientated,3.5
+544,f,heal,Veterinarian,Honest,4.4
+545,f,heal,Veterinarian,Intelligent,4.7
+546,f,heal,Veterinarian,Powerful,4.1
+547,f,heal,Veterinarian,Reliable,4.43
+548,f,heal,Veterinarian,Skilful,4.63
+549,f,heal,Veterinarian,Trustworthy,4.43
+550,m,heal,Veterinarian,Ambitious,4.43
+551,m,heal,Veterinarian,Charitable,3.9
+552,m,heal,Veterinarian,Family.Orientated,3.63
+553,m,heal,Veterinarian,Honest,4.27
+554,m,heal,Veterinarian,Intelligent,4.57
+555,m,heal,Veterinarian,Powerful,3.83
+556,m,heal,Veterinarian,Reliable,4.57
+557,m,heal,Veterinarian,Skilful,4.53
+558,m,heal,Veterinarian,Trustworthy,4.33
+559,f,bus,Waiting staff (restaurant),Ambitious,2.59
+560,f,bus,Waiting staff (restaurant),Charitable,2.52
+561,f,bus,Waiting staff (restaurant),Family.Orientated,3.21
+562,f,bus,Waiting staff (restaurant),Honest,3.21
+563,f,bus,Waiting staff (restaurant),Intelligent,2.72
+564,f,bus,Waiting staff (restaurant),Powerful,1.93
+565,f,bus,Waiting staff (restaurant),Reliable,3.52
+566,f,bus,Waiting staff (restaurant),Skilful,3
+567,f,bus,Waiting staff (restaurant),Trustworthy,3.24
+568,m,bus,Waiting staff (restaurant),Ambitious,2.53
+569,m,bus,Waiting staff (restaurant),Charitable,4.1
+570,m,bus,Waiting staff (restaurant),Family.Orientated,3.3
+571,m,bus,Waiting staff (restaurant),Honest,4
+572,m,bus,Waiting staff (restaurant),Intelligent,2.87
+573,m,bus,Waiting staff (restaurant),Powerful,1.93
+574,m,bus,Waiting staff (restaurant),Reliable,3.37
+575,m,bus,Waiting staff (restaurant),Skilful,3.03
+576,m,bus,Waiting staff (restaurant),Trustworthy,3.43
