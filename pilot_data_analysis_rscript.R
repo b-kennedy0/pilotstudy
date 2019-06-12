@@ -29,7 +29,8 @@ library(stringr)
 update.packages(ask=FALSE)
 #############################################################################
 #Load the dataset
-pilotdata_v1 <- read_excel("~/Dropbox (Personal)/PhD Dropbox/Pilot analysis/pilot_study_data_MASTER.xlsx")
+pilotdata_v1 <- read_excel("~/Dropbox (Personal)/PhD Dropbox/All_R/Pilot analysis/pilot_study_data_MASTER.xlsx")
+setwd("~/Dropbox (Personal)/PhD Dropbox/All_R/Pilot analysis/")
 #Transform characteristic ratings to numbers
 pilotdata_v2 <- mutate_at(pilotdata_v1, vars(9:647), funs(ifelse( . == "1 - Not very ..." , 1, ifelse(. == "2", 2, ifelse( . == "3 - Moderately ...", 3, ifelse(. == "4", 4, ifelse( . == "5 - Very ...", 5, .)))))))
 #Transform sector ratings to numbers
@@ -65,7 +66,7 @@ names(pilotdata_v3)[i2] <- substring(names(pilotdata_v3)[i2], 7)
 #Remove first 6 characters from sector column names
 names(pilotdata_v3)[643:650] <- substring(names(pilotdata_v3)[643:650],7)
 #Code column names.
-addToCol <- c("1_m_med_ed_","2_f_edu_vc_","3_m_gov_barr_","4_f_mil_gen_","5_f_heal_stnur_","6_m_bus_wait_","7_m_edu_head_","8_m_med_proof_","9_f_bus_bar_","10_m_bus_admin_","11_m_heal_vet_","12_f_edu_ta_","13_f_gov_mp_","14_f_bus_ceo_","15_m_heal_stnur_","16_m_med_tv_","17_m_bus_bar_","18_f_med_ed_","19_m_mil_entr_","20_m_bus_barist_","21_f_bus_super_","22_f_bus_acc_","23_m_bus_ceo_","24_m_heal_doc_","25_m_bus_elect_","26_m_pubt_driver_","27_f_heal_clean_","28_f_edu_head_","29_m_bus_shelf_","30_m_bus_prop_","31_f_med_proof_","32_m_edu_vc_","33_f_bus_elect_","34_f_bus_retail_","35_m_gov_bin_","36_m_bus_acc_","37_f_bus_wait_","38_f_pubt_pilot_","39_m_gov_civil_","40_m_gov_mp_","41_m_bus_retail_","42_f_heal_vet_","43_f_bus_admin_","44_f_gov_civil_","45_f_gov_bin_","46_m_heal_clean_","47_m_pubt_pilot_","48_f_med_tv_","49_f_heal_doc_","50_f_bus_olymp_","51_m_edu_ta_","52_m_bus_appelect_","53_f_bus_barist_","54_f_bus_prop_","55_m_mil_gen_","56_m_med_tvcam_","57_m_mil_entr_","58_f_pubt_driver_","59_m_bus_olymp_","60_f_gov_barr_","61_f_bus_appelect_","62_f_bus_shelf_","63_m_bus_super_","64_f_med_tvcam_")
+addToCol <- c("1_m_med_ed_","2_f_edu_vc_","3_m_gov_barr_","4_f_mil_gen_","5_f_heal_stnur_","6_m_bus_wait_","7_m_edu_head_","8_m_med_proof_","9_f_bus_bar_","10_m_bus_admin_","11_m_heal_vet_","12_f_edu_ta_","13_f_gov_mp_","14_f_bus_ceo_","15_m_heal_stnur_","16_m_med_tv_","17_m_bus_bar_","18_f_med_ed_","19_m_mil_entr_","20_m_bus_barist_","21_f_bus_super_","22_f_bus_acc_","23_m_bus_ceo_","24_m_heal_doc_","25_m_bus_elect_","26_m_pubt_driver_","27_f_heal_clean_","28_f_edu_head_","29_m_bus_shelf_","30_m_bus_prop_","31_f_med_proof_","32_m_edu_vc_","33_f_bus_elect_","34_f_bus_retail_","35_m_gov_bin_","36_m_bus_acc_","37_f_bus_wait_","38_f_pubt_pilot_","39_m_gov_civil_","40_m_gov_mp_","41_m_bus_retail_","42_f_heal_vet_","43_f_bus_admin_","44_f_gov_civil_","45_f_gov_bin_","46_m_heal_clean_","47_m_pubt_pilot_","48_f_med_tv_","49_f_heal_doc_","50_f_bus_olymp_","51_m_edu_ta_","52_m_bus_appelect_","53_f_bus_barist_","54_f_bus_prop_","55_m_mil_gen_","56_m_med_tvcam_","57_f_mil_entr_","58_f_pubt_driver_","59_m_bus_olymp_","60_f_gov_barr_","61_f_bus_appelect_","62_f_bus_shelf_","63_m_bus_super_","64_f_med_tvcam_")
 i3 <- unlist(Map(":", seq(3, 633, by = 10), seq(11, 641, by = 10)))
 names(pilotdata_v3)[i3] <- paste0(rep(addToCol, each = 9), names(pilotdata_v3)[i3])
 #Remove blank columns (i.e. those columns with only NA values)
@@ -117,7 +118,7 @@ pilot_driver_plot <- ggplot(pilot_driver_df, aes(x=Characteristic, y=Response, s
 head_clean_df <- getdescrip %>% filter(Job == 'head' | Job == 'clean')
 head_clean_plot <- ggplot(head_clean_df, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=3) + labs(title="Head teacher  vs Cleaner") + theme(axis.text.x = element_text(size = 6.5))
 vet_barist_df <- getdescrip %>% filter(Job == 'vet' | Job == 'barist')
-vet_barist_plot <- ggplot(vet_barist_df, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=3) + labs(title="Vet vs Barrister") + theme(axis.text.x = element_text(size = 6.5))
+vet_barist_plot <- ggplot(vet_barist_df, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=3) + labs(title="Vet vs Barista") + theme(axis.text.x = element_text(size = 6.5))
 mp_bin_df <- getdescrip %>% filter(Job == 'mp' | Job == 'bin')
 mp_bin_plot <- ggplot(mp_bin_df, aes(x=Characteristic, y=Response, shape=Job, colour=Gender)) + geom_point(size=3) + labs(title="Member of parliment vs Bin collection worker") + theme(axis.text.x = element_text(size = 6.5))
 acc_wait_df <- getdescrip %>% filter(Job == 'acc' | Job == 'wait')
