@@ -1,58 +1,56 @@
 ---
 title: "Pilot Data Analysis"
 author: "Bradley Kennedy"
-date: "10/07/2018"
-output: html_document
+output:
+  html_document:
+    code_folding: show
+    toc: true
+    toc_float:
+      collapsed: false
 ---
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, results='hide'}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-###The aim of the code below is to restructure the dataset into a suitable layout to calculate descriptive statistics by group
+### The aim of the code below is to restructure the dataset into a suitable layout to calculate descriptive statistics by group
+
 ***
-  
-If packages are not already installed, do so
-```{r, results='hide', warning=FALSE, message=FALSE, error=FALSE}
-if (!require("dplyr")) install.packages("dplyr")
-if (!require("beepr")) install.packages("beepr")
-if (!require("readxl")) install.packages("readxl")
-if (!require("data.table")) install.packages("data.table")
-if (!require("readr")) install.packages("readr")
-if (!require("tidyverse")) install.packages("tidyverse")
-if (!require("tidyr")) install.packages("tidyr")
-if (!require("ggplot2")) install.packages("ggplot2")
-if (!require("ggpubr")) install.packages("ggpubr")
-if (!require("reshape2")) install.packages("reshape2")
-if (!require("RColorBrewer")) install.packages("RColorBrewer")
-if (!require("ggthemes")) install.packages("ggthemes")
-if (!require("stringr")) install.packages("stringr")
-library (dplyr)
-library (beepr)
-library (readxl)
-library(data.table)
-library(readr)
-library(tidyverse)
-library(tidyr)
-library(ggplot2)
-library(ggpubr)
-library(reshape2)
-library(RColorBrewer)
-library(ggthemes)
-library(stringr)
+
+# R Set-up
+Current R Version: `r getRversion()`
+
+Check if required packages need to be installed, if so, install
+```{r install packages, error=FALSE, message=FALSE, warning=FALSE, results='hide'}
+list_of_packages<-c("dplyr","beepr", "data.table", "readxl", "readr", "tidyverse", "tidyr", "ggplot2", "ggpubr",
+                    "reshape2", "RColorBrewer", "ggthemes", "stringr", "here")
+new.packages <- 
+  list_of_packages[!(list_of_packages %in% installed.packages()[,"Package"])]
+if(length(new.packages))install.packages(new.packages)
+
+lapply(list_of_packages, library, character.only = TRUE)
 ```
-Check for package updates
-```{r}
+
+Check for package updates from cloud.r-project.org
+```{r update packages, message=FALSE, warning=FALSE, results='hide'}
 update.packages(ask=FALSE, repos = "https://cloud.r-project.org")
 ```
-Load the dataset
+
+Load the data
 ```{r echo=FALSE}
-pilotdata_v1 <- read_excel("~/Dropbox (Personal)/PhD Dropbox/All_R/Pilot analysis/pilot_study_data_MASTER.xlsx")
-setwd("~/Dropbox (Personal)/PhD Dropbox/All_R/Pilot analysis/")
+pilotdata_v1 <- read_excel(here("pilot_study_data_ANON.xlsx"))
 ```
-```{r eval=FALSE}
-pilotdata_v1 <- pilot_study_data_ANON
-```
-Transform characteristic ratings to numbers
+
+Demographic information
 ```{r}
+m_age <- round(mean(as.numeric(pilotdata_v1$`4.Age?`)), digits = 2)
+sd_age <- round(sd(as.numeric(pilotdata_v1$`4.Age?`)), digits = 2)
+min_age <- min(as.numeric(pilotdata_v1$`4.Age?`))
+max_age <- max(as.numeric(pilotdata_v1$`4.Age?`))
+gender <- summary.factor(tolower(pilotdata_v1$`3.Gender`))
+```
+
+
+Transform characteristic ratings to numbers
+```{r eval=FALSE}
 pilotdata_v2 <- mutate_at(pilotdata_v1, vars(9:647), funs(ifelse( . == "1 - Not very ..." , 1, ifelse(. == "2", 2, ifelse( . == "3 - Moderately ...", 3, ifelse(. == "4", 4, ifelse( . == "5 - Very ...", 5, .)))))))
 ```
 Transform sector ratings to numbers
@@ -122,7 +120,7 @@ pilotdata_v3 <- select(pilotdata_v3, -578:-585)
 Turn into long format
 ```{r}
 names <-colnames(pilotdata_v3)[-1]
-data_long <- gather(pilotdata_v3, "Question", "Response", c(names))
+data_long <- gather(pilotdata_v3, "Question", "Response", c(all_of(names)))
 newdata <- data_long[order(data_long$ResponseID),]
 temp <- separate(data_long, col="Question", into=c("Question", "Gender", "Sector", "Job", "Characteristic"), sep="_")
 newdata_filt <- (is.na(temp$Response))
@@ -203,7 +201,7 @@ powerful_wide <- spread(countof_powerful, Response, n)
 powerful_wide[is.na(powerful_wide)] <- 0
 powerful_titles <- c("Not very", "A little", "Moderately", "Fairly", "Very")
 colnames(powerful_wide) <- c("Job", powerful_titles)
-powerful_wide <- tbl_df(powerful_wide)
+powerful_wide <- as_tibble(powerful_wide)
 percentage_powerful <- powerful_wide[,2:6]/rowSums(powerful_wide[,2:6])
 powerful_wide[,2:6] <- percentage_powerful[1:5]
 list1 <- c(2,6,8,9,10,11,12,15,16,17,20,24,25,26,27,30)
